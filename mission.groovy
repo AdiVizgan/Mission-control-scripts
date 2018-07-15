@@ -3,7 +3,7 @@ artifactory('art1') {
   security{
   permissions {
  permission('vagrantSnapshotPerm') {
-          anyLocal true
+          anyLocal false
           anyRemote false
           anyDistribution false
           repositories (repoNames)
